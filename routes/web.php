@@ -18,3 +18,12 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+
+Route::group(['prefix' => '1'], function() {
+    
+    Route::get('1',['as'=>'1.1','uses'=>'OneController@one']);
+    Route::get('2',['as'=>'1.2','uses'=>'OneController@two']);
+    
+});
