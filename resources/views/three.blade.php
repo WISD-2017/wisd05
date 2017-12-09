@@ -5,14 +5,13 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Dashboard</div>
+                <div class="panel-heading">Three</div>
 
                 <div class="panel-body">
-                    <div class="links">
-                    <a href="{{route('2.1')}}">three</a>
-                    <a href="">four</a>
-                    
+                  Three view
                 </div>
+                <div>
+                    <a href="{{route('home')}}">BACK</a>
                 </div>
             </div>
         </div>
