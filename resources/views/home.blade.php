@@ -8,13 +8,11 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    @if (session('status'))
-                        <div class="alert alert-success">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    You are logged in!
+                    <div class="links">
+                    <a href="{{route('2.1')}}">three</a>
+                    <a href="">four</a>
+                    
+                </div>
                 </div>
             </div>
         </div>
