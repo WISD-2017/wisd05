@@ -9,4 +9,7 @@ class TwoController extends Controller
     public function one(){
         return view('three');
     }
+    public function two(){
+        return view('four');
+    }
 }
