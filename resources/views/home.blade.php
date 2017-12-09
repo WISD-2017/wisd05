@@ -8,7 +8,11 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    <div class="links">
+                    
+                    <a href="{{route('1.1')}}">one</a>
+                    <a href="{{route('1.2')}}">two</a>
+                    <br>
+                    
                     <a href="{{route('2.1')}}">three</a>
                     <a href="">four</a>
                     
